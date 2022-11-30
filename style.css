@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:50px;color: rgb(167, 0, 0);
+  letter-spacing: 40px;
+  
+}
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:60px;color: rgb(167, 0, 0);
+  letter-spacing: 20px;
+}
+.navbar-brand{
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:20px;color: rgb(167, 0, 0);
+
+}
+
+@media(min-width:768px){
+  h2{
+    display:none;
+  }
+}
+#barraMobile{
+  display:none;
+}
+@media(max-width:768px ){
+  header{
+      display:none;
+  }
+  #tituloPrincipal{
+    display:none;
+  }
+  #barraMobile{
+    display:block;
+    }
+  #barraDesktop{
+    display:none;
+  }
+  }
+  
+a:link{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+  }
+a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+a:hover {
+    text-decoration: none;
+    color:rgb(111, 209, 216)
+  }
+ a:active {
+    text-decoration: none;
+  }
+#series{
+    font-size: 18px;
+}
+#informacion{
+    font-size: 14px;
+}
+.fotoA{
+    max-width: 50%;
+    height:auto;
+}
+.fotoB{
+    height: auto;
+    max-width: 70%;
+}
+.fotoC{
+  height: auto;
+  max-width: 70%;
+}
+.FotoD{
+  max-width: 50%;
+  height:auto;
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+    color: rgb(199, 199, 199);
+}
