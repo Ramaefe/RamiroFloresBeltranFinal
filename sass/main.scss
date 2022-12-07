@@ -1,0 +1,66 @@
+$red:rgb(167, 0, 0);
+$font: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+body{
+     h1{
+        font-family: $font;
+        font-size:50px;color:$red;
+        letter-spacing: 40px;
+       }
+    h2{
+        font-family: $font;
+        font-size:60px;color: $red;
+        letter-spacing: 20px;
+      }
+    .navbar-brand{
+    font-family: $font;
+    font-size:20px;color: $red;
+      }
+   
+    a{
+        &:link{
+            text-decoration: none;
+            color:rgb(0, 0, 0);
+          }
+        #contactoBoton{
+            @extend a:link;
+            color:rgb(255, 0, 200)
+          }   
+        &:visited {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+          }
+        &:hover {
+            text-decoration: none;
+            color:rgb(111, 209, 216)
+          }
+        &:active {
+            text-decoration: none;
+          }
+       }
+    #informacion{
+        @extend a:link;
+        color:rgb(255, 0, 200)
+      } 
+    #series{
+      font-size: 18px;
+      }
+    #informacion{
+      font-size: 14px;
+      }
+    .fotoA{
+      max-width: 50%;
+      height:auto;
+      }
+    .fotoB{
+      height: auto;
+      max-width: 70%;
+      }
+    .fotoC{
+    height: auto;
+    max-width: 70%;
+      }
+   .FotoD{
+    max-width: 50%;
+    height:auto;
+      }
+}

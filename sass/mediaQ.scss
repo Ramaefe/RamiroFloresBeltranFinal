@@ -1,0 +1,23 @@
+@media(min-width:768px){
+    h2{
+      display:none;
+    }
+  }
+  #barraMobile{
+    display:none;
+  }
+ @media(max-width:768px ){
+  header{
+      display:none;
+ }
+ #tituloPrincipal{
+    display:none;
+  }
+  #barraMobile{
+    display:block;
+    }
+  #barraDesktop{
+    display:none;
+  }
+  }
+  

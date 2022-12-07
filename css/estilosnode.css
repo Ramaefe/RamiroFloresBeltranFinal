@@ -1,0 +1,81 @@
+@media (min-width: 768px) {
+  h2 {
+    display: none; } }
+
+#barraMobile {
+  display: none; }
+
+@media (max-width: 768px) {
+  header {
+    display: none; }
+  #tituloPrincipal {
+    display: none; }
+  #barraMobile {
+    display: block; }
+  #barraDesktop {
+    display: none; } }
+
+body h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  color: #a70000;
+  letter-spacing: 40px; }
+
+body h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 60px;
+  color: #a70000;
+  letter-spacing: 20px; }
+
+body .navbar-brand {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: #a70000; }
+
+body a:link, body a #contactoBoton, body #informacion {
+  text-decoration: none;
+  color: black; }
+
+body a #contactoBoton {
+  color: #ff00c8; }
+
+body a:visited {
+  text-decoration: none;
+  color: black; }
+
+body a:hover {
+  text-decoration: none;
+  color: #6fd1d8; }
+
+body a:active {
+  text-decoration: none; }
+
+body #informacion {
+  color: #ff00c8; }
+
+body #series {
+  font-size: 18px; }
+
+body #informacion {
+  font-size: 14px; }
+
+body .fotoA {
+  max-width: 50%;
+  height: auto; }
+
+body .fotoB {
+  height: auto;
+  max-width: 70%; }
+
+body .fotoC {
+  height: auto;
+  max-width: 70%; }
+
+body .FotoD {
+  max-width: 50%;
+  height: auto; }
+
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #c7c7c7; }
